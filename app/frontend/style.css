@@ -1,6 +1,16 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    background-color: #f3f3f3;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #000;
 }
 
 h1 {
@@ -10,6 +20,7 @@ h1 {
 input[type="text"] {
     padding: 10px;
     margin: 10px;
+    width: 70%;
 }
 
 button {
@@ -17,6 +28,10 @@ button {
     background-color: #333;
     color: #fff;
     border: none;
+}
+
+.filter-buttons button {
+    margin: 5px;
 }
 
 ul {
@@ -28,4 +43,9 @@ li {
     margin: 10px;
     padding: 10px;
     border: 1px solid #ccc;
+    transition: background-color 0.3s;
+}
+
+.completed {
+    background-color: #d3ffd3;
 }
