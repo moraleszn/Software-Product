@@ -9,13 +9,13 @@
     <div class="container">
         <h1>Lista de Tarefas</h1>
         <input type="text" id="task" placeholder="Adicione uma tarefa">
-        <button onclick="addTask()">Adicionar</button>
+        <button class="add-button" onclick="addTask()">Adicionar</button>
         <div class="filter-buttons">
-            <button onclick="filterTasks('all')">Mostrar todas</button>
-            <button onclick="filterTasks('pending')">Mostrar pendentes</button>
-            <button onclick="filterTasks('completed')">Mostrar concluídas</button>
+            <button class="filter-button" onclick="filterTasks('all')">Mostrar todas</button>
+            <button class="filter-button" onclick="filterTasks('pending')">Mostrar pendentes</button>
+            <button class="filter-button" onclick="filterTasks('completed')">Mostrar concluídas</button>
         </div>
-        <button onclick="clearCompletedTasks()">Remover concluídas</button>
+        <button class="clear-button" onclick="clearCompletedTasks()">Remover concluídas</button>
         <ul id="taskList"></ul>
     </div>
     <script src="script.js"></script>

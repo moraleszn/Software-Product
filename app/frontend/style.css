@@ -5,8 +5,8 @@ body {
 }
 
 .container {
-    max-width: 400px;
-    margin: 0 auto;
+    max-width: 600px;
+    margin: 20px auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
@@ -30,8 +30,20 @@ button {
     border: none;
 }
 
+.add-button {
+    background-color: #3498db;
+}
+
 .filter-buttons button {
     margin: 5px;
+}
+
+.filter-button {
+    background-color: #3498db;
+}
+
+.clear-button {
+    background-color: #3498db;
 }
 
 ul {
@@ -44,8 +56,20 @@ li {
     padding: 10px;
     border: 1px solid #ccc;
     transition: background-color 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .completed {
     background-color: #d3ffd3;
+}
+
+.timestamp, .due-date {
+    font-size: 0.8em;
+    color: #888;
+}
+
+.due-date {
+    margin-left: auto;
 }
